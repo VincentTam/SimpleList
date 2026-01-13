@@ -1,0 +1,35 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# CMake cache
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+*.exe
+*.dll
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dependencies (if using vcpkg or similar)
+vcpkg_installed/
